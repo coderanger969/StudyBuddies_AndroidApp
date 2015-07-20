@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-75a72c59ec5112549e73803c35370cc1fac841b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\libs\Parse-1.8.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56dfc827c23c1f0be64eff2ef556633ea95b16ad">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\Parse-1.8.3-30a3a202aa8758ee4ec182f3acb0f2d2c91394af.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-56cafdeeeb1f62e69fb78d0e740e01d68c0dd1f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\mail-1a27cf044877b27f50c9911d1a8921ecbb43f5ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-1c96ecb2375a09338450502f766357cf1292565c.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\additionnal-971f9d2343155339dccb5141a1667d365f4eb78b.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\classes-af9965267a9a4e2df8f497e2f8bd10c874ef355c.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\activation-b453710a0506b03bc4e46ed655246e0bfcdb2477.jar" />
+    </item>
+    <item
+        jar="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\manasa\Desktop\ece 575 project\Study_buddies\app\build\intermediates\pre-dexed\debug\classes-9fad760f77562a90d8341778635a5378f3a39e8b.jar" />
+    </item>
+
+</items>

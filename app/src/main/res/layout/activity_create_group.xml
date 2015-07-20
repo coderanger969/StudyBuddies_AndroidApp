@@ -1,0 +1,92 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/group_name"
+    android:layout_marginTop="36dp"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textStyle="bold" />
+
+<EditText android:id="@+id/group_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/course_name"
+    android:layout_below="@+id/group_name"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="24dp"
+    android:id="@+id/textView2"
+    android:textStyle="bold" />
+
+<EditText android:id="@+id/course_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/education_level"
+    android:layout_below="@+id/course_name"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="23dp"
+    android:id="@+id/textView3"
+    android:textStyle="bold" />
+
+<EditText android:id="@+id/education_level"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:layout_below="@+id/education_level"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/description"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<Button android:id="@+id/button_Submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_Submit"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="77dp" />
+
+
+
+</RelativeLayout>

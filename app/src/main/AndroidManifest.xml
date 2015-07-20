@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sanskrutinaik.study_buddies" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:name=".ParseApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginSignupActivity" >
+        </activity>
+        <activity android:name=".Welcome" >
+        </activity>
+        <activity
+            android:name=".CreateGroup"
+            android:label="@string/title_activity_create_group" >
+        </activity>
+        <activity
+            android:name=".ExistingGroup"
+            android:label="@string/title_activity_existing_group" >
+        </activity>
+        <activity
+            android:name=".AddMember"
+            android:label="@string/title_activity_add_member" >
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name=".WebView"
+            android:label="@string/title_activity_web_view"
+            android:parentActivityName=".Schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Schedule" />
+        </activity>
+        <activity
+            android:name=".GroupDetails"
+            android:label="@string/title_activity_group_details" >
+        </activity>
+        <activity
+            android:name=".Members"
+            android:label="@string/title_activity_members" >
+        </activity>
+        <activity
+            android:name=".Meetings"
+            android:label="@string/title_activity_meetings" >
+        </activity>
+    </application>
+
+</manifest>
